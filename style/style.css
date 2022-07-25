@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+header {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+    background-image: url(../imagenes/tierra1.jpg);
+    background-position: absolute;
+    position: sticky;
+    text-align: center;
+    top: 0;
+}
+
+img {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+    width: 400px;
+}
+.sti{
+    padding: 50px;
+    border: 5px hidden bisque;
+    margin: 10px 500px 10px;
+    width: 400px;
+}
+
+h1 {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: darkred;
+}
+
+h2 {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: darkred;
+}
+
+h3 {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+p {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+    font-style: 20px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.6;
+    color: black;
+}
+
+.parrafoBienvenida {
+    color: darkred;
+    ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 5px 3px 5px;
+    color: darkred;
+    ;
+
+}
+
+.fotoPerfil {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 30px 500px 30px;
+    color: darkred;
+    ;
+    border-radius: 1cm;
+    border: 3px double rgb(255, 200, 255);
+}
+
+.navegador {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+    list-style-type: none;
+    border-radius: 1cm;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    color: darkred;
+    font-weight: bold;
+
+}
+
+.navegador:hover {
+    color: white;
+
+}
+
+a {
+    color: black;
+    padding: 5px;
+    border: 3px hidden bisque;
+    margin: 5px 3px 5px;
+    background-color: whitesmoke;
+}
+
+.formulario {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+    text-align: left;
+}
+
+footer {
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 200px;
+    background-color: rgb(255, 200, 255);
+    text-align: center;
+}
+
+i {
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 8px 10px 20px;
+
+}
+
+.pie {
+    text-align: center;
+}
+
+.Contacto {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5px;
+    margin-top: 100px;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: white solid 6px;
+    background-color: transparent;
+    background-image: url(../imagenes/floresFondo.jpg);
+}
+
+.control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 4px double black;
+    max-width: 370px;
+}
+
+.boton {
+    width: 100px;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+    justify-content: flex-end;
+    margin-left: 35%;
+}
+
+.tipoPersona {
+    color: darkred;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+}
+
+.contactonombre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    color: darkred;
+}
+li{
+    color: black;
+    padding: 5px;
+    border: 3px hidden bisque;
+    margin: 5px 3px 5px;;
+}
