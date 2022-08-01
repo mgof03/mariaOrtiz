@@ -14,9 +14,9 @@ body {
 header {
     padding: 10px;
     border: 5px hidden bisque;
-    margin: 10px 5px 10px;
-    background-image: url(../imagenes/tierra1.jpg);
-    background-position: absolute;
+    margin: 0px 0px 0px;
+    background-image: url(../imagenes/inicio2.jpg);
+    background-position: center;
     position: sticky;
     text-align: center;
     top: 0;
@@ -26,12 +26,6 @@ img {
     padding: 10px;
     border: 5px hidden bisque;
     margin: 10px 5px 10px;
-    width: 400px;
-}
-.sti{
-    padding: 50px;
-    border: 5px hidden bisque;
-    margin: 10px 500px 10px;
     width: 400px;
 }
 
@@ -44,7 +38,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     text-align: center;
-    color: darkred;
+    color: rgb(25, 158, 158);
 }
 
 h2 {
@@ -56,7 +50,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-align: center;
-    color: darkred;
+    color: rgb(25, 158, 158);
 }
 
 h3 {
@@ -66,7 +60,8 @@ h3 {
     font-style: normal;
     font-weight: lighter;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 28px;
+    text-align: center;
 }
 
 p {
@@ -83,7 +78,7 @@ p {
 }
 
 .parrafoBienvenida {
-    color: darkred;
+    color: rgb(25, 158, 158);
     ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -92,22 +87,14 @@ div {
     padding: 10px;
     border: 5px hidden bisque;
     margin: 5px 3px 5px;
-    color: darkred;
+    color: rgb(25, 158, 158);
     ;
 
 }
 
-.fotoPerfil {
-    padding: 10px;
-    border: 5px hidden bisque;
-    margin: 30px 500px 30px;
-    color: darkred;
-    ;
-    border-radius: 1cm;
-    border: 3px double rgb(255, 200, 255);
-}
 
 .navegador {
+    display: flex;
     padding: 10px;
     border: 5px hidden bisque;
     margin: 10px 5px 10px;
@@ -115,13 +102,13 @@ div {
     border-radius: 1cm;
     font-family: 'Roboto', sans-serif;
     display: inline-block;
-    color: darkred;
+    color:rgb(25, 158, 158);
     font-weight: bold;
 
 }
 
 .navegador:hover {
-    color: white;
+    color: black;
 
 }
 
@@ -131,6 +118,8 @@ a {
     border: 3px hidden bisque;
     margin: 5px 3px 5px;
     background-color: whitesmoke;
+    display: inline-block;
+    
 }
 
 .formulario {
@@ -144,12 +133,12 @@ footer {
     padding: 10px;
     margin-bottom: 0;
     margin-top: 200px;
-    background-color: rgb(255, 200, 255);
+    background-color: rgb(164, 248, 248);
     text-align: center;
 }
 
 i {
-    color: darkred;
+    color: rgb(15, 73, 73);
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -174,7 +163,7 @@ i {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: white solid 6px;
     background-color: transparent;
-    background-image: url(../imagenes/floresFondo.jpg);
+    background-image: url(../imagenes/tierra1.jpg);
 }
 
 .control {
@@ -197,7 +186,7 @@ i {
 }
 
 .tipoPersona {
-    color: darkred;
+    color: rgb(25, 158, 158);
     background-color: whitesmoke;
     padding: 10px;
     border: 5px hidden bisque;
@@ -207,11 +196,60 @@ i {
 .contactonombre {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: whitesmoke;
-    color: darkred;
+    color: rgb(25, 158, 158);
 }
 li{
     color: black;
     padding: 5px;
     border: 3px hidden bisque;
-    margin: 5px 3px 5px;;
+    margin: 5px 3px 5px;
+    display: inline-block;
+    
 }
+
+ul{
+    padding: 5px;
+    border: 3px hidden bisque;
+    margin: 5px 3px 5px;
+    display: inline-block;
+}
+
+.gifhola {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 30px 500px 30px;
+    color: rgb(10, 153, 129);
+    border-radius: 1cm;
+    border: 3px double rgb(19, 170, 125);
+    overflow: hidden;
+}
+
+.gifhola:hover{
+    transform: scale(1.2);
+}
+
+.solar {
+    display: inline-block;
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 500px 10px 500px;
+    color: rgb(10, 153, 129);
+    border-radius: 1cm;
+    overflow: hidden;
+    }
+
+    .solar:hover{
+        transform: rotate(10deg);
+    }
+    .solar1 {
+        padding: 10px;
+        border: 5px hidden bisque;
+        margin: 10px 500px 10px 500px;
+        color: rgb(10, 153, 129);
+        border-radius: 1cm;
+        overflow: hidden;
+        }
+    
+        .solar1:hover{
+            transform: scale(1.2);
+        }
