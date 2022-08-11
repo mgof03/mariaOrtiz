@@ -15,8 +15,10 @@
         <!-- Encabezado-->
         <nav>
             <!-- Lista No Ordenada-->
-            <a class="navegador" href="../index.html">Home</a>
             <ul>
+                <li>
+                    <a class="navegador" href="../index.html">Home</a>
+                </li>
                 <li>
                     <a class="navegador" href="./ultimosDescubrimientos.html">Ultimos Descubrimientos</a>
                 </li>
@@ -33,30 +35,30 @@
         </nav>
     </header>
 
-    <section>
+    <section class="flex-container">
         <h1>CONTACTO</h1>
-        <p>¡Puedes Dejar tu info!</p>
-    </section>
-    <!-- formulario de contacto -->
+        <h2>¡Puedes Dejar tu info!</h2>
+        <!-- formulario de contacto -->
 
-    <section class="Contacto">
-        <form action="sections/contacto.html">
-            <h2 class="contactonombre">Contáctame</h2>
-            <input class="control" type="text" placeholder="Nombre">
-            <input class="control" type="text" placeholder="Apellido">
+        <section class="Contacto">
+            <form action="sections/contacto.html">
+                <h2 class="contactonombre">Contáctame</h2>
+                <input class="control" type="text" placeholder="Nombre">
+                <input class="control" type="text" placeholder="Apellido">
 
-            <div class="tipoPersona">Personal</div>
-            <input class="tipoPersona" type="radio" name="tipoPersona" value="tipoPersona">
-            <div class="tipoPersona">Empresa</div>
-            <input class="tipoPersona" type="radio" name="tipoPersona" value="tipoPersona">
+                <div class="tipoPersona">Personal</div>
+                <input class="tipoPersona" type="radio" name="tipoPersona" value="tipoPersona">
+                <div class="tipoPersona">Empresa</div>
+                <input class="tipoPersona" type="radio" name="tipoPersona" value="tipoPersona">
 
-            <textarea class="control" placeholder="Observaciones:"></textarea>
-            <input class="control" type="email" placeholder="Correo de contacto" name="email">
-            <input class="control" type="text" placeholder="Numero de telefono"><br>
-            <input class="boton" type="submit" value="Enviar">
+                <textarea class="control" placeholder="Observaciones:"></textarea>
+                <input class="control" type="email" placeholder="Correo de contacto" name="email">
+                <input class="control" type="text" placeholder="Numero de telefono"><br>
+                <input class="boton" type="submit" value="Enviar">
 
-        </form>
-        </article>
+            </form>
+            </article>
+        </section>
     </section>
 
     <footer id="footer">
