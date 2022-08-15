@@ -1,41 +1,95 @@
-
-.gifhola {
+img {
     padding: 10px;
     border: 5px hidden bisque;
-    margin: 30px 500px 30px;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .gifhola {
+    padding: 10px;
+    border: 5px hidden bisque;
     color: rgb(10, 153, 129);
     border-radius: 1cm;
     border: 3px double rgb(19, 170, 125);
     overflow: hidden;
-}
 
-.gifhola:hover {
+  .gifhola:hover {
     transform: scale(1.2);
-}
+  }
+  
+  }
 
-.solar {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    border: 1px hidden rgb(46, 231, 207);
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .grid-layout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid aquamarine;
+    background-color: rgb(183, 255, 215);
+      
+  .c1 {
+    grid-column: 1/2;
+  }
+  
+  .c2 {
+    grid-column: 3/4;
+  }
+  
+  }
+
+  
+  .solar {
     display: inline-block;
     padding: 10px;
     border: 5px hidden bisque;
-    margin: 10px 500px 10px 500px;
     color: rgb(10, 153, 129);
     border-radius: 1cm;
     overflow: hidden;
-}
-
-.solar:hover {
+ 
+  .solar:hover {
     transform: rotate(10deg);
-}
+  }
+  }
 
-.solar1 {
+  
+  .solar1 {
     padding: 10px;
     border: 5px hidden bisque;
-    margin: 10px 500px 10px 500px;
     color: rgb(10, 153, 129);
     border-radius: 1cm;
     overflow: hidden;
-}
 
-.solar1:hover {
-    transform: scale(1.2);
-}
+    .solar1:hover {
+        transform: scale(1.2);
+      }
+  }
+  
+  
+  .animal-flex div {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    padding: 20px;
+    border-radius: 1cm;
+    grid-template-columns: 50% 50%;
+    
+    .animal-flex:hover {
+        transform: scale(1.2);
+      }
+    
+  }
+  
+  

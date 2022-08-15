@@ -234,7 +234,8 @@ ul {
   padding: 10px;
   border: 5px hidden bisque;
   margin: 10px 5px 10px;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
 }
 
 .pie {
@@ -242,7 +243,6 @@ ul {
 }
 
 .Contacto {
-  width: 400px;
   padding: 30px;
   margin: auto;
   margin-top: 5px;
@@ -255,22 +255,21 @@ ul {
 }
 
 .control {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
   border: 4px double black;
-  max-width: 370px;
+
 }
 
 .boton {
-  width: 100px;
+  width: 70%;
   border-radius: 3px;
   padding: 12px;
-  margin: 16px 0;
+  margin: 10px 5px 10px;
   font-size: 16px;
-  justify-content: flex-end;
-  margin-left: 35%;
+
 }
 
 .tipoPersona {
@@ -279,12 +278,15 @@ ul {
   padding: 10px;
   border: 5px hidden bisque;
   margin: 10px 5px 10px;
+  width: 70%;
+
 }
 
 .contactonombre {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: whitesmoke;
   color: rgb(25, 158, 158);
+  width: 70%;
 }
 
 /*# sourceMappingURL=estilo.css.map */

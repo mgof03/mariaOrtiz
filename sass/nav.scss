@@ -1,0 +1,52 @@
+header {
+    padding-bottom: 5px;
+    border: 5px hidden bisque;
+    margin: 0px 0px 0px;
+    background-image: url(../imagenes/inicio2.jpg);
+    background-position: center;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    width: 100%;
+
+    nav {
+        display: flex;
+        justify-content: center;
+
+        ul {
+            border: 3px hidden bisque;
+            margin: 5px 3px 5px;
+            display: inline-block;
+
+            li {
+                color: black;
+                border: 3px hidden bisque;
+                margin: 5px 3px 5px;
+                display: inline-block;
+
+                a {
+                    color: black;
+                    display: flex;
+                    border: 5px hidden bisque;
+                    background-color: whitesmoke;
+                    margin: 10px 5px 10px;
+                    list-style-type: none;
+                    border-radius: 1cm;
+                    font-family: "Roboto", sans-serif;
+                    color: rgb(25, 158, 158);
+                    font-weight: bold;
+                    display: flex;
+                    justify-content: center;
+
+                    .navegador:hover {
+                        color: black;
+                    }
+
+
+                }
+            }
+
+        }
+
+    }
+}

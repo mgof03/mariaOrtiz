@@ -1,0 +1,55 @@
+.formulario {
+    padding: 10px;
+    border: 5px hidden bisque;
+    margin: 10px 5px 10px;
+    text-align: center;
+    justify-content: center;
+  
+    .Contacto {
+      padding: 30px;
+      margin: auto;
+      margin-top: 5px;
+      margin-top: 100px;
+      border-radius: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border: white solid 6px;
+      background-color: transparent;
+      background-image: url(../imagenes/tierra1.jpg);
+    
+    .control {
+        width: 70%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 4px double black;
+      
+      }
+      
+      .boton {
+        width: 70%;
+        border-radius: 3px;
+        padding: 12px;
+        margin: 10px 5px 10px;
+        font-size: 16px;
+      
+      }
+      
+      .tipoPersona {
+        color: rgb(25, 158, 158);
+        background-color: whitesmoke;
+        padding: 10px;
+        border: 5px hidden bisque;
+        margin: 10px 5px 10px;
+        width: 70%;
+      
+      }
+      
+      .contactonombre {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: whitesmoke;
+        color: rgb(25, 158, 158);
+        width: 70%;
+      }
+    }
+    
+  }
