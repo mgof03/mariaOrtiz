@@ -1,24 +1,24 @@
-img {
+@mixin size-total {
     padding: 10px;
     border: 5px hidden bisque;
     margin: 0 auto;
     width: 50%;
-  }
+    } 
+
 
   .gifhola {
-    padding: 10px;
-    border: 5px hidden bisque;
     color: rgb(10, 153, 129);
     border-radius: 1cm;
     border: 3px double rgb(19, 170, 125);
     overflow: hidden;
+    @include size-total();
 
   .gifhola:hover {
     transform: scale(1.2);
   }
   
   }
-
+ 
   .flex-container {
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@ img {
     border: 1px hidden rgb(46, 231, 207);
     flex-wrap: nowrap;
     width: 80%;
-    margin: 0 auto;
+    @include size-total();
   }
   
   .grid-layout {
@@ -35,10 +35,10 @@ img {
     grid-template-rows: auto auto;
     justify-content: center;
     width: 80%;
-    margin: 0 auto;
     padding: 20px;
     border: 1px solid aquamarine;
     background-color: rgb(183, 255, 215);
+    @include size-total();
       
   .c1 {
     grid-column: 1/2;
@@ -50,14 +50,12 @@ img {
   
   }
 
-  
   .solar {
     display: inline-block;
-    padding: 10px;
-    border: 5px hidden bisque;
     color: rgb(10, 153, 129);
     border-radius: 1cm;
     overflow: hidden;
+    @include size-total();
  
   .solar:hover {
     transform: rotate(10deg);
@@ -66,11 +64,10 @@ img {
 
   
   .solar1 {
-    padding: 10px;
-    border: 5px hidden bisque;
     color: rgb(10, 153, 129);
     border-radius: 1cm;
     overflow: hidden;
+    @include size-total();
 
     .solar1:hover {
         transform: scale(1.2);
@@ -80,11 +77,11 @@ img {
   
   .animal-flex div {
     width: 80%;
-    margin: 0 auto;
     display: grid;
     padding: 20px;
     border-radius: 1cm;
     grid-template-columns: 50% 50%;
+     @include size-total();
     
     .animal-flex:hover {
         transform: scale(1.2);

@@ -1,6 +1,6 @@
 .formulario {
     padding: 10px;
-    border: 5px hidden bisque;
+    border: 5px hidden map-get($map: $palette, $key: 'bordes');
     margin: 10px 5px 10px;
     text-align: center;
     justify-content: center;
@@ -35,10 +35,10 @@
       }
       
       .tipoPersona {
-        color: rgb(25, 158, 158);
+        color: map-get($map: $palette, $key: 'titulos');
         background-color: whitesmoke;
         padding: 10px;
-        border: 5px hidden bisque;
+        border: 5px hidden map-get($map: $palette, $key: 'bordes');
         margin: 10px 5px 10px;
         width: 70%;
       
@@ -47,7 +47,7 @@
       .contactonombre {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: whitesmoke;
-        color: rgb(25, 158, 158);
+        color: map-get($map: $palette, $key: 'titulos');
         width: 70%;
       }
     }
