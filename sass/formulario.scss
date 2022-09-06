@@ -36,7 +36,7 @@
       
       .tipoPersona {
         color: map-get($map: $palette, $key: 'titulos');
-        background-color: whitesmoke;
+        background-color: map-get($map: $palette, $key: 'fondo');
         padding: 10px;
         border: 5px hidden map-get($map: $palette, $key: 'bordes');
         margin: 10px 5px 10px;
@@ -46,7 +46,7 @@
       
       .contactonombre {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: whitesmoke;
+        background-color: map-get($map: $palette, $key: 'fondo');
         color: map-get($map: $palette, $key: 'titulos');
         width: 70%;
       }

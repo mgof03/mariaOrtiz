@@ -1,6 +1,13 @@
-@media (max-widht: 300px){
+@media (max-widht: 400px){
   .nav{ 
         flex-direction: row;
+        display: inline-flex;
+
+ }
+
+ .navegador{
+    flex-direction: row;
+    display: inline-flex;
 
  }
 }
